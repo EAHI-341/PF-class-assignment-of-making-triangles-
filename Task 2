@@ -1,1 +1,11 @@
-. 
+#include <iostream>
+using namespace std;
+int main(){
+int column;
+int row;
+
+	for(row=5;  row>=1;  row--){
+		cout<<endl;
+		for(column=1;   column<=row;   column++)
+		cout<<"*";	}
+}
